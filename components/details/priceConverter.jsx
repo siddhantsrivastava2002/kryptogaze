@@ -12,7 +12,7 @@ import solana from 'assets/solana.png'
 import avalanche from 'assets/avalanche.png'
 import bnb from 'assets/bnb.png'
 import { useContext } from 'react'
-import { KryptoGazeContext } from '../../context/context'
+import { KryptoGazeContext } from 'context/context'
 
 const styles = {
   converter: `flex items-center justify-between bg-[#171924] border border-gray-500/10 px-5 py-5 rounded-xl`,
@@ -65,7 +65,16 @@ const CMCpriceConverter = ({
             alt=''
           />
         )
-
+        case 'Tether':
+          return (
+            <Image
+              src={usdt}
+              className='rounded-full'
+              width={50}
+              height={50}
+              alt=''
+            />
+          )
       case 'BNB':
         return (
           <Image

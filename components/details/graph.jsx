@@ -58,7 +58,7 @@ const options = {
 
 const Graph = () => {
     return (
-        <Line data={data} options={options} width={400} height={150} />
+        <Line data={data} options={options} width={700} height={150} />
     )
 }
 

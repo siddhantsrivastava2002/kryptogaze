@@ -95,9 +95,7 @@ const Currencies = () => {
             />
           </div>
 
-          <div className='pt-10 ml-5'>
-           
-          </div>
+        
         </div>
       </main>
     </div>

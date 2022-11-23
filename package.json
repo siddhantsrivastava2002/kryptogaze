@@ -9,6 +9,8 @@
     "next": "latest",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-chartjs-2": "^4.0.1",
+    "chart.js": "^3.7.1",
     "react-switch": "^7.0.0"
   },
   "devDependencies": {

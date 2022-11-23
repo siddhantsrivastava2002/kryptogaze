@@ -71,11 +71,12 @@ const TableRow = ({
         <td>{starNum}</td>
 
         {coinIcon && coinIcon ? (
-          <td className='cursor-pointer'>
+          <td className='cursor-pointer'
+          onClick={viewCoinDetails}>
             <CoinNameRow
               name={coinName}
               icon={coinIcon}
-              clicked={viewCoinDetails}
+             
             />
           </td>
         ) : (
