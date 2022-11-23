@@ -1,11 +1,11 @@
-import type { NextPage } from 'next'
+
 import Head from 'next/head'
 import Image from 'next/image'
-import Header from '../components/Header'
+import Header from '../components/header'
 import Trending from '../components/Trending/trending'
 import MainTable from '../components/krypto-table/mainTable'
 
-const Home: NextPage = () => {
+const Home = () => {
   return (
     <div className='min-h-screen'>
     <Header />
